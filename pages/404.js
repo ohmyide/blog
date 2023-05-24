@@ -7,7 +7,7 @@ export default function FourZeroFour() {
   return (
     <>
       <PageSEO title={`Page Not Found - ${siteMetadata.title}`} />
-      <div className="flex flex-col items-start justify-start md:mt-24 md:flex-clom md:items-center md:justify-center md:space-x-6">
+      <div className="md:flex-clom flex flex-col items-start justify-start md:mt-24 md:items-center md:justify-center md:space-x-6">
         <div>
           <Image
             alt="404"
